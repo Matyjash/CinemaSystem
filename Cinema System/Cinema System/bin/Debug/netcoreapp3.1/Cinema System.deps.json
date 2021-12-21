@@ -9,6 +9,11 @@
       "Cinema System/1.0.0": {
         "runtime": {
           "Cinema System.dll": {}
+        },
+        "resources": {
+          "af/Cinema System.resources.dll": {
+            "locale": "af"
+          }
         }
       }
     }

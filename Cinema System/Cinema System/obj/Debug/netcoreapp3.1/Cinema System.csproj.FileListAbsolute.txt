@@ -14,3 +14,11 @@ C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\De
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema System.pdb
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema System.genruntimeconfig.cache
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.Properties.Resources.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormLogin.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormRegister.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\af\Cinema System.resources.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddChoice.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddMovie.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddToProgramme.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddChoice.af.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\af\Cinema System.resources.dll
