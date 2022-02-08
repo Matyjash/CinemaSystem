@@ -4,7 +4,6 @@ C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\De
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\Cinema System.runtimeconfig.dev.json
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\Cinema System.dll
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\Cinema System.pdb
-C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema System.csprojAssemblyReference.cache
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormMain.resources
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema System.csproj.GenerateResource.cache
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema System.AssemblyInfoInputs.cache
@@ -16,9 +15,18 @@ C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\De
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.Properties.Resources.resources
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormLogin.resources
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormRegister.resources
-C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\af\Cinema System.resources.dll
-C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddChoice.resources
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddMovie.resources
 C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddToProgramme.resources
-C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddChoice.af.resources
-C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\af\Cinema System.resources.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormChoice.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema System.csproj.CopyComplete
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormReviews.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormAddReview.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema_System.FormTickets.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema System.csproj.AssemblyReference.cache
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Debug\netcoreapp3.1\Cinema System.GeneratedMSBuildEditorConfig.editorconfig

@@ -44,7 +44,7 @@ namespace Cinema_System
             | System.Windows.Forms.AnchorStyles.Right)));
             this.labelMain.Font = new System.Drawing.Font("LuzSans-Book", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelMain.ForeColor = System.Drawing.Color.Firebrick;
-            this.labelMain.Location = new System.Drawing.Point(169, 33);
+            this.labelMain.Location = new System.Drawing.Point(183, 40);
             this.labelMain.Name = "labelMain";
             this.labelMain.Size = new System.Drawing.Size(180, 43);
             this.labelMain.TabIndex = 0;
@@ -129,7 +129,8 @@ namespace Cinema_System
             this.Controls.Add(this.labelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormLogin";
-            this.Text = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Logowanie";
             this.ResumeLayout(false);
             this.PerformLayout();
 

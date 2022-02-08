@@ -1,0 +1,24 @@
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Release\netcoreapp3.1\Cinema System.exe
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Release\netcoreapp3.1\Cinema System.deps.json
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Release\netcoreapp3.1\Cinema System.runtimeconfig.json
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Release\netcoreapp3.1\Cinema System.runtimeconfig.dev.json
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Release\netcoreapp3.1\Cinema System.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Release\netcoreapp3.1\Cinema System.pdb
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\bin\Release\netcoreapp3.1\af\Cinema System.resources.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema System.csprojAssemblyReference.cache
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema_System.FormAddChoice.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema_System.FormAddMovie.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema_System.FormAddToProgramme.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema_System.FormLogin.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema_System.FormMain.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema_System.FormRegister.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema_System.Properties.Resources.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema_System.FormAddChoice.af.resources
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema System.csproj.GenerateResource.cache
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema System.AssemblyInfoInputs.cache
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema System.AssemblyInfo.cs
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema System.csproj.CoreCompileInputs.cache
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\af\Cinema System.resources.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema System.dll
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema System.pdb
+C:\Users\Lengom\Documents\GitHub\CinemaSystem\Cinema System\Cinema System\obj\Release\netcoreapp3.1\Cinema System.genruntimeconfig.cache

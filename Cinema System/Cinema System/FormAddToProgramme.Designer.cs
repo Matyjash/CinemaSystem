@@ -29,34 +29,35 @@ namespace Cinema_System
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonAddToMovies = new System.Windows.Forms.Button();
+            this.buttonAddScreening = new System.Windows.Forms.Button();
             this.textBoxTitle = new System.Windows.Forms.TextBox();
             this.labelTitle = new System.Windows.Forms.Label();
             this.textBoxHallId = new System.Windows.Forms.TextBox();
             this.textBoxYear = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBoxMonth = new System.Windows.Forms.TextBox();
+            this.textBoxDay = new System.Windows.Forms.TextBox();
+            this.textBoxHour = new System.Windows.Forms.TextBox();
+            this.textBoxMinutes = new System.Windows.Forms.TextBox();
             this.labelDate = new System.Windows.Forms.Label();
             this.labelTime = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // buttonAddToMovies
+            // buttonAddScreening
             // 
-            this.buttonAddToMovies.BackColor = System.Drawing.Color.Transparent;
-            this.buttonAddToMovies.BackgroundImage = global::Cinema_System.Properties.Resources.button;
-            this.buttonAddToMovies.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonAddToMovies.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.buttonAddToMovies.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAddToMovies.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonAddToMovies.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAddToMovies.Location = new System.Drawing.Point(147, 280);
-            this.buttonAddToMovies.Name = "buttonAddToMovies";
-            this.buttonAddToMovies.Size = new System.Drawing.Size(150, 49);
-            this.buttonAddToMovies.TabIndex = 14;
-            this.buttonAddToMovies.Text = "Dodaj";
-            this.buttonAddToMovies.UseVisualStyleBackColor = false;
+            this.buttonAddScreening.BackColor = System.Drawing.Color.Transparent;
+            this.buttonAddScreening.BackgroundImage = global::Cinema_System.Properties.Resources.button;
+            this.buttonAddScreening.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonAddScreening.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.buttonAddScreening.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAddScreening.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonAddScreening.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.buttonAddScreening.Location = new System.Drawing.Point(147, 280);
+            this.buttonAddScreening.Name = "buttonAddScreening";
+            this.buttonAddScreening.Size = new System.Drawing.Size(150, 49);
+            this.buttonAddScreening.TabIndex = 14;
+            this.buttonAddScreening.Text = "Dodaj";
+            this.buttonAddScreening.UseVisualStyleBackColor = false;
+            this.buttonAddScreening.Click += new System.EventHandler(this.buttonAddScreening_Click);
             // 
             // textBoxTitle
             // 
@@ -67,7 +68,9 @@ namespace Cinema_System
             this.textBoxTitle.Name = "textBoxTitle";
             this.textBoxTitle.Size = new System.Drawing.Size(327, 29);
             this.textBoxTitle.TabIndex = 9;
-            this.textBoxTitle.Text = "Tytuł filmu";
+            this.textBoxTitle.Text = "Tytuł";
+            this.textBoxTitle.Enter += new System.EventHandler(this.textBoxTitle_Enter);
+            this.textBoxTitle.Leave += new System.EventHandler(this.textBoxTitle_Leave);
             // 
             // labelTitle
             // 
@@ -91,6 +94,8 @@ namespace Cinema_System
             this.textBoxHallId.Size = new System.Drawing.Size(89, 29);
             this.textBoxHallId.TabIndex = 15;
             this.textBoxHallId.Text = "ID sali";
+            this.textBoxHallId.Enter += new System.EventHandler(this.textBoxHallId_Enter);
+            this.textBoxHallId.Leave += new System.EventHandler(this.textBoxHallId_Leave);
             // 
             // textBoxYear
             // 
@@ -103,54 +108,64 @@ namespace Cinema_System
             this.textBoxYear.Size = new System.Drawing.Size(66, 29);
             this.textBoxYear.TabIndex = 16;
             this.textBoxYear.Text = "YYYY";
+            this.textBoxYear.Enter += new System.EventHandler(this.textBoxYear_Enter);
+            this.textBoxYear.Leave += new System.EventHandler(this.textBoxYear_Leave);
             // 
-            // textBox2
+            // textBoxMonth
             // 
-            this.textBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBox2.BackColor = System.Drawing.Color.Firebrick;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(120, 162);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(56, 29);
-            this.textBox2.TabIndex = 17;
-            this.textBox2.Text = "MM";
+            this.textBoxMonth.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxMonth.BackColor = System.Drawing.Color.Firebrick;
+            this.textBoxMonth.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxMonth.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBoxMonth.Location = new System.Drawing.Point(120, 162);
+            this.textBoxMonth.Name = "textBoxMonth";
+            this.textBoxMonth.Size = new System.Drawing.Size(56, 29);
+            this.textBoxMonth.TabIndex = 17;
+            this.textBoxMonth.Text = "MM";
+            this.textBoxMonth.Enter += new System.EventHandler(this.textBoxMonth_Enter);
+            this.textBoxMonth.Leave += new System.EventHandler(this.textBoxMonth_Leave);
             // 
-            // textBox3
+            // textBoxDay
             // 
-            this.textBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBox3.BackColor = System.Drawing.Color.Firebrick;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(182, 162);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(56, 29);
-            this.textBox3.TabIndex = 18;
-            this.textBox3.Text = "DD";
+            this.textBoxDay.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxDay.BackColor = System.Drawing.Color.Firebrick;
+            this.textBoxDay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxDay.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBoxDay.Location = new System.Drawing.Point(182, 162);
+            this.textBoxDay.Name = "textBoxDay";
+            this.textBoxDay.Size = new System.Drawing.Size(56, 29);
+            this.textBoxDay.TabIndex = 18;
+            this.textBoxDay.Text = "DD";
+            this.textBoxDay.Enter += new System.EventHandler(this.textBoxDay_Enter);
+            this.textBoxDay.Leave += new System.EventHandler(this.textBoxDay_Leave);
             // 
-            // textBox4
+            // textBoxHour
             // 
-            this.textBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBox4.BackColor = System.Drawing.Color.Firebrick;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(258, 162);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(56, 29);
-            this.textBox4.TabIndex = 19;
-            this.textBox4.Text = "hh";
+            this.textBoxHour.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxHour.BackColor = System.Drawing.Color.Firebrick;
+            this.textBoxHour.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxHour.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBoxHour.Location = new System.Drawing.Point(258, 162);
+            this.textBoxHour.Name = "textBoxHour";
+            this.textBoxHour.Size = new System.Drawing.Size(56, 29);
+            this.textBoxHour.TabIndex = 19;
+            this.textBoxHour.Text = "hh";
+            this.textBoxHour.Enter += new System.EventHandler(this.textBoxHour_Enter);
+            this.textBoxHour.Leave += new System.EventHandler(this.textBoxHour_Leave);
             // 
-            // textBox5
+            // textBoxMinutes
             // 
-            this.textBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBox5.BackColor = System.Drawing.Color.Firebrick;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.Location = new System.Drawing.Point(319, 162);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(56, 29);
-            this.textBox5.TabIndex = 20;
-            this.textBox5.Text = "mm";
+            this.textBoxMinutes.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxMinutes.BackColor = System.Drawing.Color.Firebrick;
+            this.textBoxMinutes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxMinutes.Font = new System.Drawing.Font("LuzSans-Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBoxMinutes.Location = new System.Drawing.Point(319, 162);
+            this.textBoxMinutes.Name = "textBoxMinutes";
+            this.textBoxMinutes.Size = new System.Drawing.Size(56, 29);
+            this.textBoxMinutes.TabIndex = 20;
+            this.textBoxMinutes.Text = "mm";
+            this.textBoxMinutes.Enter += new System.EventHandler(this.textBoxMinutes_Enter);
+            this.textBoxMinutes.Leave += new System.EventHandler(this.textBoxMinutes_Leave);
             // 
             // labelDate
             // 
@@ -182,17 +197,19 @@ namespace Cinema_System
             this.ClientSize = new System.Drawing.Size(434, 355);
             this.Controls.Add(this.labelTime);
             this.Controls.Add(this.labelDate);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBoxMinutes);
+            this.Controls.Add(this.textBoxHour);
+            this.Controls.Add(this.textBoxDay);
+            this.Controls.Add(this.textBoxMonth);
             this.Controls.Add(this.textBoxYear);
             this.Controls.Add(this.textBoxHallId);
-            this.Controls.Add(this.buttonAddToMovies);
+            this.Controls.Add(this.buttonAddScreening);
             this.Controls.Add(this.textBoxTitle);
             this.Controls.Add(this.labelTitle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormAddToProgramme";
-            this.Text = "FormAddToProgramme";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Dodawanie seansu";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,15 +217,15 @@ namespace Cinema_System
 
         #endregion
 
-        private System.Windows.Forms.Button buttonAddToMovies;
+        private System.Windows.Forms.Button buttonAddScreening;
         private System.Windows.Forms.TextBox textBoxTitle;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.TextBox textBoxHallId;
         private System.Windows.Forms.TextBox textBoxYear;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBoxMonth;
+        private System.Windows.Forms.TextBox textBoxDay;
+        private System.Windows.Forms.TextBox textBoxHour;
+        private System.Windows.Forms.TextBox textBoxMinutes;
         private System.Windows.Forms.Label labelDate;
         private System.Windows.Forms.Label labelTime;
     }

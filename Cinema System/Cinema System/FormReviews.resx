@@ -57,53 +57,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonAddFilm.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonAddFilm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
+  <metadata name="dataGridViewReviews.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="buttonAddFilm.Font" type="System.Drawing.Font, System.Drawing.Common">
-    <value>LuzSans-Book, 12pt, style=Bold</value>
-  </data>
-  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonAddFilm.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>49, 85</value>
-  </data>
-  <data name="buttonAddFilm.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>150, 49</value>
-  </data>
-  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
-  <data name="buttonAddFilm.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>5</value>
-  </data>
-  <data name="buttonAddFilm.Text" xml:space="preserve">
-    <value>Film</value>
-  </data>
-  <data name="buttonAddToProgramme.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="buttonAddToProgramme.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="buttonAddToProgramme.Font" type="System.Drawing.Font, System.Drawing.Common">
-    <value>LuzSans-Book, 12pt, style=Bold</value>
-  </data>
-  <data name="buttonAddToProgramme.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonAddToProgramme.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>238, 85</value>
-  </data>
-  <data name="buttonAddToProgramme.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>150, 49</value>
-  </data>
-  <data name="buttonAddToProgramme.TabIndex" type="System.Int32, System.Private.CoreLib">
-    <value>6</value>
-  </data>
-  <data name="buttonAddToProgramme.Text" xml:space="preserve">
-    <value>Seans</value>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFgAAACmAAAApQAAAKUAAAClAAAApQAAAKUAAAClAAAApQAA
+        AJ0AAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAEAAACkAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD+AAAAWgAAAAAAAAAAAAAAAAAAAAAAAAABAAAApAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/gAAAFsAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAKYAAADjAAAApQAAAKQAAACkAAAApAAA
+        AKQAAACkAAAArwAAAPMAAABbAAAAAAAAAAAAAAAAAAAAAAAAAAEAAACpAAAAqQAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAB8AAADfAAAAXQAAAAAAAAAAAAAAAAAAAAAAAAABAAAApwAAAMoAAABdAAAAXAAA
+        AF0AAABdAAAAXQAAAFsAAABwAAAA6gAAAFwAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAJ0AAADoAAAA3QAA
+        ANwAAADeAAAA3wAAAN8AAADfAAAA3wAAAN8AAABQAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAC8AAAAmAAA
+        ADwAAABOAAAAKAAAABsAAAAbAAAAHgAAAB8AAAAfAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAzAAAA6gAA
+        AHUAAACJAAAA6QAAAEsAAABSAAAASQAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAA
+        AEQAAAAlAAAAngAAAMkAAABGAAAA4QAAAOgAAABBAAAAgwAAAEcAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAA0AAAAbAAAAKQAAAKQAAACZAAAAUQAAAPQAAABpAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACQAAACgAAAB5AAAAIQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAOADAADgAwAAwAMAAMADAADAAwAAw+MAAMADAADAAwAAwAMAAMAfAADABwAA8AcAAP8H
+        AAD/5wAA//8AAA==
+</value>
   </data>
 </root>

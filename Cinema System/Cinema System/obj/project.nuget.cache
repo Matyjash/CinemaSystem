@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "5gF6XF0PYUbc/ZwLAcJPSCmW0n3Do3331A7lGx77viQZ0jy1nc/K16g2s6AsbxLCfHV/vz0JeXTinOggopp9yw==",
+  "dgSpecHash": "Yem8L85aoSFGvs8L6bKm6oLtM7JQLYM0/Qt0aYl59NvR+Vfy+Zs3CcmcERVPPqrLDSkdTJHfdE9hNzkVpWNgDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lengom\\Documents\\GitHub\\CinemaSystem\\Cinema System\\Cinema System\\Cinema System.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lengo\\Documents\\GitHub\\CinemaSystem\\Cinema System\\Cinema System\\Cinema System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lengo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\lengo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\lengo\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\lengo\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lengo\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lengo\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lengo\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\lengo\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\lengo\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

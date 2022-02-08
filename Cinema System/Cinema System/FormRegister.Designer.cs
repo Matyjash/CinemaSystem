@@ -156,7 +156,7 @@ namespace Cinema_System
             this.Controls.Add(this.labelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormRegister";
-            this.Text = "FormLogin";
+            this.Text = "Rejestracja";
             this.ResumeLayout(false);
             this.PerformLayout();
 
